@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto',sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.search-box{
+    border: 1px solid #ccc;
+    left: 200px;
+    padding: 8px 12px;
+    border-radius: 2px;
+    width: 500px;
+
+    
+
+}
+
+input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    display: inline;
+    
+}
+
+.imgg{
+    width: 25px;
+    margin-right: 25px;
+    display:inline-flex;
+    align-items: end;
+}
+
+#useri{
+    width: 35px;
+    border-radius: 40%;
+    margin-right: 0;
+}
+
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+
+.right-nav{
+    display: flex;
+    align-items: end;
+}
+
+.sidebar{
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 10%;
+    padding-left: 2%;
+
+
+}
+
+#thumbnail1{
+    display: block;
+    margin-left: 30%;
+    margin-right: auto;
+    width: 20%;
+}
+
+#thumbnail2{
+    display: block;
+    margin-top: 3%;
+    margin-left: 30%;
+    width: 20%;
+}
+
+#thumbnail3{
+    display: block;
+    margin-left: 30%;
+    margin-bottom: 8%;
+    width: 20%;
+}
+
+.videos{
+    align-items: flex-start;
+    margin-top: 7px;
+
+}
+
+.videocaption1{
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 33%;
+    font-weight: 600px;
+    font-size: 0.9em;
+}
+
+.sub1img{
+    margin-left: 30%;
+    margin-top: 0%;
+}
+
+.smallpops{
+    text-decoration: solid;
+    display: block;
+    justify-content: space-evenly;
+}
